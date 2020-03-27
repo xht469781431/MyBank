@@ -102,3 +102,24 @@
 2020-03-27 16:50:13.056 INFO [http-nio-0.0.0.0-8090-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
 2020-03-27 16:50:13.056 INFO [http-nio-0.0.0.0-8090-exec-1][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
 2020-03-27 16:50:13.064 INFO [http-nio-0.0.0.0-8090-exec-1][FrameworkServlet.java:547] - Completed initialization in 6 ms
+2020-03-27 16:51:58.714 INFO [restartedMain][StartupInfoLogger.java:55] - Starting BankCounterOperatorApplication on DESKTOP-C8H1Q58 with PID 19088 (C:\Users\zhao\Desktop\test\smile-bank\BankCounterOperator\target\classes started by zhao in C:\Users\zhao\Desktop\test\smile-bank)
+2020-03-27 16:51:58.722 INFO [restartedMain][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2020-03-27 16:51:58.798 INFO [restartedMain][DeferredLog.java:225] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-27 16:51:58.798 INFO [restartedMain][DeferredLog.java:225] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-27 16:52:01.121 INFO [restartedMain][TomcatWebServer.java:92] - Tomcat initialized with port(s): 8090 (http)
+2020-03-27 16:52:01.136 INFO [restartedMain][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-0.0.0.0-8090"]
+2020-03-27 16:52:01.137 INFO [restartedMain][DirectJDKLog.java:173] - Starting service [Tomcat]
+2020-03-27 16:52:01.137 INFO [restartedMain][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-03-27 16:52:01.309 INFO [restartedMain][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2020-03-27 16:52:01.310 INFO [restartedMain][ServletWebServerApplicationContext.java:284] - Root WebApplicationContext: initialization completed in 2510 ms
+2020-03-27 16:52:02.145 INFO [restartedMain][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-03-27 16:52:02.320 INFO [restartedMain][ExecutorConfigurationSupport.java:171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-27 16:52:02.876 INFO [restartedMain][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+2020-03-27 16:52:02.906 INFO [restartedMain][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+2020-03-27 16:52:02.944 INFO [restartedMain][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+2020-03-27 16:52:03.168 INFO [restartedMain][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-0.0.0.0-8090"]
+2020-03-27 16:52:03.200 INFO [restartedMain][TomcatWebServer.java:204] - Tomcat started on port(s): 8090 (http) with context path '/children/bank'
+2020-03-27 16:52:03.204 INFO [restartedMain][StartupInfoLogger.java:61] - Started BankCounterOperatorApplication in 5.042 seconds (JVM running for 7.279)
+2020-03-27 16:52:03.447 INFO [http-nio-0.0.0.0-8090-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-27 16:52:03.448 INFO [http-nio-0.0.0.0-8090-exec-1][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2020-03-27 16:52:03.459 INFO [http-nio-0.0.0.0-8090-exec-1][FrameworkServlet.java:547] - Completed initialization in 11 ms
