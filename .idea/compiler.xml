@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="BankCounterOperator" />
+        <module name="bank-admin" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="bank-admin" target="1.8" />
+      <module name="BankCounterOperator" target="1.8" />
+      <module name="renren-fast" target="1.8" />
+      <module name="smile-bank" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="BankCounterOperator" options="-parameters" />
+      <module name="bank-admin" options="-parameters" />
+      <module name="renren-fast" options="-parameters" />
+    </option>
+  </component>
+</project>

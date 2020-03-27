@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BankCounterOperator/BankCounterOperator.iml" filepath="$PROJECT_DIR$/BankCounterOperator/BankCounterOperator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bank-admin/bank-admin.iml" filepath="$PROJECT_DIR$/bank-admin/bank-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/smile-bank.iml" filepath="$PROJECT_DIR$/smile-bank.iml" />
+    </modules>
+  </component>
+</project>

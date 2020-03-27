@@ -1,0 +1,36 @@
+server: 
+  port: 8090
+  address: 0.0.0.0
+  servlet:
+    context-path: /children/bank
+
+spring: 
+
+  #application: 
+   # name: userManager
+ #数据库相关的配置
+  datasource: 
+    
+#    username: llbtadmin
+#    password: LLBT2020@shenzhen
+#    url: jdbc:mysql://rm-wz9305nx8wm353pc2.mysql.rds.aliyuncs.com:3306/childrenbank_test
+#    driver-class-name: com.mysql.jdbc.Driver
+    
+    username: root
+    password: 123456
+    url: jdbc:mysql://localhost:3306/childrenbank?useUnicode=true&amp;characterEncoding=utf8
+    driver-class-name: com.mysql.jdbc.Driver
+
+#mybatis相关配置
+mybatis:
+  configuration:
+    jdbc-type-for-null: NULL
+    map-underscore-to-camel-case: true
+ #指定映射文件的路径
+  mapper-locations: classpath:mapper/*.xml
+ #统一指定实体类的别名:默认是类名或类名首字母小写
+  type-aliases-package: com.ll.pojo
+  #指定日志配置文件的路径
+logging:
+  config: classpath:log4j2.xml
+

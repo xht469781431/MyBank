@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="io.szsmile.modules.sys.dao.SchoolClassDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="io.szsmile.modules.sys.entity.SchoolClassEntity" id="schoolClassMap">
+        <result property="id" column="id"/>
+        <result property="schoolId" column="school_id"/>
+        <result property="gradeId" column="grade_id"/>
+        <result property="name" column="name"/>
+        <result property="orderNo" column="order_no"/>
+        <result property="headerTeacherId" column="header_teacher_id"/>
+        <result property="created" column="created"/>
+        <result property="modified" column="modified"/>
+    </resultMap>
+
+
+</mapper>

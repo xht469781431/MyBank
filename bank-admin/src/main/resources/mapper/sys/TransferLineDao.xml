@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="io.szsmile.modules.sys.dao.TransferLineDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="io.szsmile.modules.sys.entity.TransferLineEntity" id="transferLineMap">
+        <result property="id" column="id"/>
+        <result property="schoolId" column="school_id"/>
+        <result property="studentId" column="student_id"/>
+        <result property="nfcNumber" column="nfc_number"/>
+        <result property="deviceType" column="device_type"/>
+        <result property="deviceId" column="device_id"/>
+        <result property="toStudentId" column="to_student_id"/>
+        <result property="toNfcNumber" column="to_nfc_number"/>
+        <result property="amount" column="amount"/>
+        <result property="operatorId" column="operator_id"/>
+        <result property="created" column="created"/>
+    </resultMap>
+
+
+</mapper>
