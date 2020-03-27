@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="00681db8-2d94-43b0-bf7f-8b2da4e066b2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BankCounterOperator/logs/info.log" beforeDir="false" afterPath="$PROJECT_DIR$/BankCounterOperator/logs/info.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BankCounterOperator/logs/warn.log" beforeDir="false" afterPath="$PROJECT_DIR$/BankCounterOperator/logs/warn.log" afterDir="false" />
-    </list>
+    <list default="true" id="00681db8-2d94-43b0-bf7f-8b2da4e066b2" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/bank-admin/target/" />
@@ -22,16 +18,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BankCounterOperator/src/main/java/com/ll/config/SwaggerConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+            <state relative-caret-position="353">
+              <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitattributes">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -112,7 +113,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-39" />
     <option name="y" value="129" />
     <option name="width" value="1440" />
@@ -136,36 +137,6 @@
               <item name="smile-bank" type="b2602c69:ProjectViewProjectNode" />
               <item name="smile-bank" type="462c0819:PsiDirectoryNode" />
               <item name="BankCounterOperator" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="smile-bank" type="b2602c69:ProjectViewProjectNode" />
-              <item name="smile-bank" type="462c0819:PsiDirectoryNode" />
-              <item name="BankCounterOperator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="smile-bank" type="b2602c69:ProjectViewProjectNode" />
-              <item name="smile-bank" type="462c0819:PsiDirectoryNode" />
-              <item name="BankCounterOperator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="smile-bank" type="b2602c69:ProjectViewProjectNode" />
-              <item name="smile-bank" type="462c0819:PsiDirectoryNode" />
-              <item name="BankCounterOperator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="smile-bank" type="b2602c69:ProjectViewProjectNode" />
-              <item name="smile-bank" type="462c0819:PsiDirectoryNode" />
-              <item name="BankCounterOperator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ll" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -288,17 +259,18 @@
       <workItem from="1585185664018" duration="165000" />
       <workItem from="1585208532761" duration="2989000" />
       <workItem from="1585270384832" duration="6000" />
-      <workItem from="1585270409820" duration="20606000" />
+      <workItem from="1585270409820" duration="21065000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62604000" />
+    <option name="totallyTimeSpent" value="63063000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31932095" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31932095" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -313,7 +285,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3283859" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3283859" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Run with VisualVM" order="10" />
       <window_info anchor="bottom" id="Version Control" order="11" />
@@ -342,13 +314,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bank-admin/src/main/java/io/szsmile/common/utils/ConfigConstant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bank-admin/src/main/java/io/szsmile/common/utils/Constant.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -696,13 +661,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BankCounterOperator/src/main/java/com/ll/config/SwaggerConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+        <state relative-caret-position="353">
+          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitattributes">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
